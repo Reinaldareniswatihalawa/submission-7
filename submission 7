@@ -1,0 +1,11 @@
+ indeks fungsi 
+ publik ( ) { 
+    return  User :: all (); 
+} penyimpanan fungsi
+
+ publik  ( Permintaan $request ) { $user = Pengguna :: buat ( $request -> semua ()); respon balik ()-> json ( $user , 201 ); } pertunjukan fungsi publik ( Pengguna $pengguna ) { respon balik ()-> json ( $pengguna ); } pembaruan fungsi publik ( Permintaan $ permintaan , Pengguna $pengguna ) { $pengguna -> pembaruan ( $permintaan -> semua ()); respon balik ()-> json ( $pengguna ); } penghancuran fungsi publik ( Pengguna $pengguna ) { $pengguna -> hapus (); respon balik ()-> json ( null , 204 ); } 
+{ 
+    "nama" :  "Reinalda Halawa" , 
+    "email" :  "reinaldareniswatihalawa@gmail.com" , 
+    "kata sandi" :  "kata sandi" 
+}
